@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: brown;
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateY(50px); 
+    animation: fadeInUp 1.5s ease-out forwards; 
+    display: flex;
+    
+  }
+  
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(150 0px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
